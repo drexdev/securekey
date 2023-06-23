@@ -1,7 +1,12 @@
 {
-  "name": "secret-key",
+  "name": "secure-key",
+  "description": "O projeto consiste em desenvolver um gerador de senha seguro e personalizável para facilitar a criação de senhas fortes e proteger contas online. Os usuários poderão personalizar o comprimento, a combinação de caracteres e outras opções.",
+  "author": {
+    "url": "https://drexdev.tech",
+    "name": "André"
+  },
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",

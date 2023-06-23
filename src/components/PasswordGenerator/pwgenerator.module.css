@@ -23,6 +23,8 @@
     align-items: center;
 
     gap: 15px;
+
+    font-size: var(--font-size-default);
 }
 
 .checkBox {
@@ -31,6 +33,7 @@
     gap: 8px;
 
     cursor: pointer;
+    font-size: var(--font-size-default);
 }
 
 .inputCheckBox {
@@ -50,7 +53,7 @@
 }
 
 .inputCheckBox:checked {
-    background-color: var(--color-secondary);
+    background-color: var(--color-primary);
 }
 
 .inputCheckBox:checked::after {
@@ -62,13 +65,13 @@
 /* password Generator */
 
 
-
 .passwordContainer {
     text-align: left;
 }
 
 .labelContainer {
     font-weight: 600;
+    font-size: var(--font-size-label);
 }
 
 .generatedPassword {
@@ -82,10 +85,11 @@
 
     letter-spacing: .3rem;
     line-height: 1.5;
-    font-size: 1.5rem;
+    font-size: var(--font-size-others);
 
     -webkit-user-select: text;
     user-select: text;
+
     word-break: break-all;
 
     font-weight: 700;
@@ -111,9 +115,16 @@
 }
 
 .symbolPassword {
-    color: var(--color-secondary);
+    color: var(--color-primary);
 }
 
 .digitPassword {
     color: orangered;
+}
+
+@media screen and (max-width: 650px) {
+    .configContainer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }
