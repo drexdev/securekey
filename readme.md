@@ -1,7 +1,7 @@
-<h1 align="center">Gerador de Senhas Seguro</h1>
+<h1 align="center">SecureKey</h1>
 
 <p align="center">
-  <img src="link_para_o_logo.png" alt="Logo do Gerador de Senhas Seguro">
+  <img src="https://securekey-delta.vercel.app/logoBanner.svg" alt="Logo da SecureKey">
 </p>
 
 <p align="center">
