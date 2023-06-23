@@ -11,7 +11,7 @@
 ## Capturas de Tela
 
 <p align="center">
-  <img src="blob:https://vercel.com/e48f0625-0f43-45d2-824a-a98d653493fa" alt="Exemplo com imagem" width="400">
+  <img src="https://media.discordapp.net/attachments/1094031953465974787/1121624896997441596/e48f0625-0f43-45d2-824a-a98d653493fa.png" alt="Exemplo com imagem" width="400">
 </p>
 
 ## Funcionalidades
