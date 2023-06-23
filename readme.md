@@ -4,12 +4,12 @@
   <img src="https://securekey-delta.vercel.app/logoBanner.svg" alt="Logo da SecureKey">
 </p>
 
-<p align="center"><b>SecureKey</b> é um site especializado em fornecer um gerador de senhas seguro e confiável. Com o objetivo de proteger suas contas online, o SecureKey permite criar senhas fortes e personalizadas de forma fácil e intuitiva. Com opções avançadas de personalização, como comprimento da senha e combinação de caracteres, você pode garantir a máxima segurança para suas credenciais digitais.</p>
+<p align="center"><b>SecureKey</b> é um projeto que permite gerar senhas seguras com funcionalidades como adicionar símbolos, números e regenerar a senha. Os usuários também podem copiar a senha gerada para uso imediato. É uma solução prática e conveniente para fortalecer a segurança de contas online.</p>
 
 ## Capturas de Tela
 
 <p align="center">
-  <img src="https://media.discordapp.net/attachments/1094031953465974787/1121624896997441596/e48f0625-0f43-45d2-824a-a98d653493fa.png" alt="Exemplo com imagem" width="800">
+  <img src="https://media.discordapp.net/attachments/1094031953465974787/1121624896997441596/e48f0625-0f43-45d2-824a-a98d653493fa.png" alt="Exemplo com imagem" width="max">
 </p>
 
 ## Funcionalidades
