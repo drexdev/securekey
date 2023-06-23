@@ -4,9 +4,7 @@
   <img src="https://securekey-delta.vercel.app/logoBanner.svg" alt="Logo da SecureKey">
 </p>
 
-<p align="center">
-  O Gerador de Senhas Seguro é uma aplicação web que permite criar senhas fortes e personalizáveis para garantir a segurança das suas contas online. Com recursos avançados de criptografia, é fácil gerar senhas seguras e proteger suas informações pessoais.
-</p>
+<p align="center"><b>SecureKey</b> é um site especializado em fornecer um gerador de senhas seguro e confiável. Com o objetivo de proteger suas contas online, o SecureKey permite criar senhas fortes e personalizadas de forma fácil e intuitiva. Com opções avançadas de personalização, como comprimento da senha e combinação de caracteres, você pode garantir a máxima segurança para suas credenciais digitais.</p>
 
 ## Capturas de Tela
 
