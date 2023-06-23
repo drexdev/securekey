@@ -17,11 +17,11 @@
 
 ## Demo
 
-Veja o [link_para_testar](https://securekey-delta.vercel.app/) para experimentar o Gerador de Senhas Seguro em ação.
+Veja o [site](https://securekey-delta.vercel.app/) para experimentar o Gerador de Senhas Seguro em ação.
 
 ## Como Usar
 
-1. Acesse [link_para_o_projeto](https://securekey-delta.vercel.app/) em seu navegador.
+1. Acesse [site](https://securekey-delta.vercel.app/) em seu navegador.
 2. Defina o comprimento da senha desejada.
 3. Selecione as opções de caracteres (números, caracteres especiais) que deseja incluir.
 4. Automaticamente a senha gerada será exibida na tela.
