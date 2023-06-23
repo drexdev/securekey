@@ -8,6 +8,12 @@
   O Gerador de Senhas Seguro é uma aplicação web que permite criar senhas fortes e personalizáveis para garantir a segurança das suas contas online. Com recursos avançados de criptografia, é fácil gerar senhas seguras e proteger suas informações pessoais.
 </p>
 
+## Capturas de Tela
+
+<p align="center">
+  <img src="blob:https://vercel.com/e48f0625-0f43-45d2-824a-a98d653493fa" alt="Exemplo com imagem" width="400">
+</p>
+
 ## Funcionalidades
 
 - Geração de senhas seguras: Crie senhas aleatórias e seguras com apenas um clique.
