@@ -1,0 +1,119 @@
+.passwordForm {
+    margin-top: 30px;
+}
+
+/* Config Password */
+
+.configContainer {
+    width: 100%;
+    padding: 15px 20px;
+    background-color: #0a253c;
+    border: 2px solid #082035;
+    border-radius: 0 0 5px 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 30px;
+}
+
+.rangeContainer {
+    display: flex;
+    align-items: center;
+
+    gap: 15px;
+}
+
+.checkBox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    cursor: pointer;
+}
+
+.inputCheckBox {
+    appearance: none;
+    background-color: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    outline: none;
+}
+
+.inputCheckBox:checked {
+    background-color: var(--color-secondary);
+}
+
+.inputCheckBox:checked::after {
+    content: "✔";
+    color: #fff;
+
+}
+
+/* password Generator */
+
+
+
+.passwordContainer {
+    text-align: left;
+}
+
+.labelContainer {
+    font-weight: 600;
+}
+
+.generatedPassword {
+    background-color: #fff;
+    width: 100%;
+    margin-top: 10px;
+    padding: 15px 60px 15px 20px;
+    text-align: center;
+
+    border-radius: 5px 5px 0 0;
+
+    letter-spacing: .3rem;
+    line-height: 1.5;
+    font-size: 1.5rem;
+
+    -webkit-user-select: text;
+    user-select: text;
+    word-break: break-all;
+
+    font-weight: 700;
+    font-family: 'Kosugi', sans-serif;
+
+    position: relative;
+}
+
+.iconReGenerate {
+    color: #333;
+    position: absolute;
+    right: 15px;
+    top: calc(50% - 15px);
+
+    height: 30px;
+    width: 30px;
+
+    cursor: pointer;
+}
+
+.letterPassword {
+    color: #333;
+}
+
+.symbolPassword {
+    color: var(--color-secondary);
+}
+
+.digitPassword {
+    color: orangered;
+}

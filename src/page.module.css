@@ -1,0 +1,34 @@
+.content {
+    max-width: 800px;
+    text-align: center;
+}
+
+.headerTitle {
+    font-size: 2.3rem;
+}
+
+.headerDescription {
+    margin-top: 15px;
+}
+
+.passwordForm {
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 1100px) {
+    .headerTitle {
+        font-size: 1.8rem;
+    }
+
+    .generatedPassword {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .configContainer {
+        flex-direction: column;
+
+        align-items: flex-start;
+    }
+}

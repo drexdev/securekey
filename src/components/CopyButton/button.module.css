@@ -1,0 +1,21 @@
+.copyButton {
+    color: white;
+    border: none;
+
+    width: 100%;
+    height: 50px;
+    margin-top: 25px;
+    background-color: var(--color-secondary);
+    font-family: 'Red Hat Display', sans-serif;
+
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
