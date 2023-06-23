@@ -23,6 +23,14 @@
 
 Veja o [site](https://securekey-delta.vercel.app/) para experimentar o Gerador de Senhas Seguro em ação.
 
+
+## Download
+
+    git clone https://github.com/drexdev/securekey.git
+    cd securekey
+    npm install
+    npm run dev
+
 ## Como Usar
 
 1. Acesse [site](https://securekey-delta.vercel.app/) em seu navegador.
