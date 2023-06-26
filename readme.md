@@ -9,7 +9,7 @@
 ## Capturas de Tela
 
 <p align="center">
-  <img src="https://media.discordapp.net/attachments/1094031953465974787/1121624896997441596/e48f0625-0f43-45d2-824a-a98d653493fa.png" alt="Exemplo com imagem" width="max">
+  <img src="https://media.discordapp.net/attachments/1094031953465974787/1121646314569076796/2a0afe07-cfa8-4e01-97c9-8a6394874260.png" alt="Exemplo com imagem" width="max">
 </p>
 
 ## Funcionalidades
@@ -22,6 +22,14 @@
 ## Demo
 
 Veja o [site](https://securekey-delta.vercel.app/) para experimentar o Gerador de Senhas Seguro em ação.
+
+
+## Download
+
+    git clone https://github.com/drexdev/securekey.git
+    cd securekey
+    npm install
+    npm run dev
 
 ## Como Usar
 
