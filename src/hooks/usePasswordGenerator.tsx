@@ -4,7 +4,7 @@ const usePasswordGenerator = () => {
 	const [password, setPassword] = useState([] as string[]);
 	const [sizePassword, setSizePassword] = useState('20');
 
-	const generatePassword = () => {
+	const generatePassword = (newSizePassword: string) => {
 		const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
 		const digits = '0123456789';
 		const symbol = '!@#$%^&*()_+';
@@ -18,7 +18,7 @@ const usePasswordGenerator = () => {
 		if (numberInput.checked) characters += digits;
 		if (symbolInput.checked) characters += symbol;
 
-		for (let i = 0; i < Number(sizePassword); i++) {
+		for (let i = 1; i <= Number(newSizePassword); i++) {
 			const indice = Math.floor(Math.random() * characters.length);
 
 			passwordArray.push(characters.charAt(indice));
@@ -27,15 +27,16 @@ const usePasswordGenerator = () => {
 		setPassword(passwordArray);
 	};
 
-	const handleChange = () => generatePassword();
+	const handleChange = () => generatePassword(sizePassword);
 	const handleSizeChange = (event: React.ChangeEvent<HTMLInputElement>) => {
 		const newSize = event.target.value;
 		setSizePassword(newSize);
 
-		generatePassword();
+		generatePassword(newSize);
 	};
 
-	useEffect(() => generatePassword(), []);
+	useEffect(() => generatePassword(sizePassword), []);
+
 
 	return {
 		password,
